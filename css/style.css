@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+    background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+    font-family: 'Rubik', sans-serif;
+    background: #262626;
+    color: white;
+    height: 100 !important
+    
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container-fluid {
+    overflow: hidden;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: white !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.navbar-inverse{
+    border-color: #262626;
+}
+
+.navbar-brand {
+    font-size: 35px;
+}
+
+.navbar-nav>li {
+    font-size: 18px;
+}
+
+#footer1 {
+    background-color: #262626;
+    padding-bottom: 2%;
+}
+
+#footer-content {
+    padding: 1%;
+    padding-left: 12%;
+    padding-right: 12%;
+    color: #989c9e !important
+}
+#footer {
+    bottom: 0;
+    width: 100%;
+  }
+
+
+.home-banner{
+    text-align: center;
+}
+
+.decription{
+    font-size: large;
+    padding: 8% 0 8% 15%;
+}
+
+.movie-desc {
+    padding-right: 15%;
+}
+
+.movie-title {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px){
+    .navbar-nav {
+        float: right;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        width: 78%;
+    }
+}
+
+.navb {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@media (max-width: 767px){
+    .movie-desc{
+        padding-bottom: 5%;
+    }
+
+    .footer-desc div {
+        padding-bottom: 3%;
+    }
+}
